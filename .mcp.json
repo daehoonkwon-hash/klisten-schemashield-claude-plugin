@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "schemashield": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/schemashield",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "klisten-schemashield",
+  "version": "0.1.0",
+  "description": "Store private customer-submitted JSON schema snapshots and inspect deterministic changes against a registered baseline.",
+  "author": {
+    "name": "Klisten Inc",
+    "email": "klisteninc@gmail.com",
+    "url": "https://klisten.co.kr"
+  },
+  "homepage": "https://klisten.co.kr/schemashield.html",
+  "license": "UNLICENSED",
+  "documentationUrl": "https://klisten.co.kr/schemashield.html",
+  "supportUrl": "https://klisten.co.kr",
+  "privacyPolicyUrl": "https://klisten.co.kr/schemashield.html",
+  "termsOfServiceUrl": "https://klisten.co.kr/terms.html",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Klisten API key",
+      "description": "A dedicated Klisten API key with schema:read and schema:write. Never provide an operator credential.",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "icon": "assets/icon.png"
+}
